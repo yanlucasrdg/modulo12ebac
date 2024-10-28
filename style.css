@@ -1,0 +1,51 @@
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #691d1d;
+}
+
+.container {
+  max-width: 100%;
+  background-color: #49aac2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #000000;
+}
+
+.form-label {
+  color: #000000;
+}
+
+.form-control {
+  border: 1px solid #007bff; 
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #05c926;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+.btn-success {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #00509e;
+  border-color: #00509e;
+}
+
+.form-check-input:checked {
+  background-color: #5cd871;
+  border-color: #e43232;
+}
